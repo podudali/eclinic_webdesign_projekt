@@ -1,0 +1,77 @@
+section {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  background-color: rgb(253, 253, 253);
+}
+section .container .wrapper:nth-child(2n) {
+  background-color: rgb(233, 233, 233);
+}
+section .container .wrapper {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 3em;
+  width: 100%;
+}
+section .container .wrapper .profile {
+  max-width: 20em;
+  border-radius: 100%;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: 2em;
+  box-shadow: 0px 10px 17px -3px rgba(0, 0, 0, 0.33);
+}
+section .container .wrapper aside {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 35em;
+}
+section .container .wrapper aside h2 {
+  font-size: 3rem;
+  color: var(--primary);
+}
+section .container .wrapper aside p {
+  max-width: 30em;
+  margin-top: 1em;
+}
+section .container .wrapper aside span {
+  color: #fff;
+  background-color: gray;
+  background: linear-gradient(0deg, rgb(34, 193, 195) 0%, rgb(39, 214, 128) 100%);
+  padding: 0.2em 0.5em;
+  font-weight: bold;
+  border-radius: 30px;
+}
+section .container .wrapper aside .social {
+  align-items: center;
+  display: flex;
+  margin-top: 1em;
+}
+section .container .wrapper aside .social img {
+  width: 2em;
+  margin-right: 1em;
+}
+section .container .wrapper aside .social a {
+  justify-self: center;
+  display: flex;
+  align-self: center;
+}
+@media only screen and (max-width: 720px) {
+  section .wrapper {
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  section .wrapper .profile {
+    display: block;
+    margin-left: auto;
+    margin-right: auto !important;
+  }
+  section .wrapper aside {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}/*# sourceMappingURL=CardsAbout.module.css.map */

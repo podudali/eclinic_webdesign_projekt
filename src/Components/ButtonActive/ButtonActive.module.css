@@ -1,0 +1,23 @@
+.button-active {
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fff;
+  padding: 0.5em;
+  font-size: 1.2rem;
+  min-width: 6em;
+  background-color: transparent;
+  border: 3px solid #fff;
+  border-radius: 15px 0;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.button-active:hover {
+  background-color: #fff;
+  color: #2a2a2a;
+  box-shadow: 5px 5px 0px 1px rgba(0, 0, 0, 0.8);
+}
+
+.button-active:focus {
+  outline: none;
+}/*# sourceMappingURL=ButtonActive.module.css.map */

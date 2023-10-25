@@ -1,0 +1,19 @@
+.searchCointainer {
+  position: relative;
+  padding: 1rem;
+  width: 500px;
+  background-color: transparent;
+  color: #fff;
+  z-index: 1;
+}
+.searchCointainer input {
+  margin-left: 1rem;
+  outline: none;
+}
+.searchCointainer .icon {
+  position: absolute;
+  top: 1.2rem;
+  right: 9.5rem;
+  z-index: 2;
+  cursor: pointer;
+}/*# sourceMappingURL=Search.module.css.map */

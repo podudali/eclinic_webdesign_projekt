@@ -1,0 +1,60 @@
+.container {
+  padding: 1em;
+  margin: 0;
+  height: 100vh;
+  width: 100%;
+  background-color: var(--darkBg);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .main {
+  margin: 1em;
+  max-width: 1200px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.container .main aside h2 {
+  text-transform: uppercase;
+  color: var(--primary);
+}
+.container .main aside h1 {
+  font-size: 3rem;
+  line-height: 50px;
+  margin: 0.3em 0;
+}
+.container .main aside button {
+  margin-top: 1em;
+}
+.container .main img {
+  width: 25em;
+  display: block;
+  margin: auto;
+}
+@media (max-width: 860px) {
+  .container .main {
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .container .main aside h2 {
+    font-size: 1.2em;
+  }
+  .container .main aside h1 {
+    font-size: 2.5rem;
+    line-height: 50px;
+    margin: 0.3em 0;
+  }
+  .container .main aside button {
+    margin-top: 1em;
+  }
+  .container .main img {
+    display: block;
+    margin-top: 0;
+    width: 12em;
+    margin-left: auto;
+    grid-column: 2;
+  }
+}/*# sourceMappingURL=WhySection.module.css.map */

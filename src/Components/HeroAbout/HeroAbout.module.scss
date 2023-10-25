@@ -1,0 +1,46 @@
+.wrapper {
+  background-image: url("../../Assets/meeting.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .container {
+    background-color: rgba(0, 0, 0, 0.582);
+    padding: 1em;
+    color: white;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    animation: fadeInto 1s;
+
+    h2 {
+      margin-top: 1.5em;
+      font-size: 2.8rem;
+    }
+
+    p {
+      margin-bottom: 5em;
+      font-size: 1.2rem;
+      text-align: center;
+      max-width: 30em;
+    }
+  }
+}
+
+@keyframes fadeInto {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 100%;
+  }
+}
